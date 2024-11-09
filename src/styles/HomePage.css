@@ -1,0 +1,14 @@
+/* src/styles/HomePage.css */
+
+.home-page {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  

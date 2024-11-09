@@ -1,0 +1,269 @@
+/* Global Styles - main.css */
+
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Apply Roboto font family */
+/* Apply Poppins font family globally */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333;
+}
+
+
+/* Navbar Styling */
+/* Navbar Styling */
+
+.navbar {
+  background: linear-gradient(to right, #191506, #2a2005); /* Gradient background */
+  color: #f7fb2a;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif; /* Or any preferred impressive font */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #d8d81a;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li {
+  font-size: 1.1rem;
+}
+
+.nav-links a {
+  color: #d8d81a;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-links a:hover {
+  color: #d8d81a;
+  border-bottom: 2px solid #d8d81a; /* Subtle underline effect */
+}
+
+.active-link {
+  color: #d8d81a;
+  border-bottom: 2px solid #d8d81a; /* Highlight the active link */
+}
+
+
+/* Button Styling */
+/* Button Styling - Replace red with a soft blue */
+.button-primary {
+  background-color: #007bb5; /* Soft blue instead of red */
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button-primary:hover {
+  background-color: #005f8b; /* Darker blue */
+}
+
+/* Card Styling */
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 1rem;
+  max-width: 300px;
+}
+
+/* Heading Styling */
+h1, h2, h3 {
+  color: #222;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer a {
+  color: #f9a825; /* Google Summer of Code Yellow */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+/* Form and Input Styling */
+input, select, textarea {
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #f9a825; /* Highlight with yellow */
+  outline: none;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* General Page Layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.content-section {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.toggle-icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.toggle-icon .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #ffdb4d; /* Soft yellow to match the theme */
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-icon:hover .bar {
+  background-color: #e6c530; /* Darker shade on hover */
+}
+
+/* Form Styling */
+/* Enrollment Form Button Styling */
+.enrollment-form-button {
+  background-color: #ffdb4d; /* Change blue to yellow */
+  color: #333; /* Text color */
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.enrollment-form-button:hover {
+  background-color: #e6c530; /* Slightly darker yellow on hover */
+}
+
+
+
+
+.enrollment-form input,
+.enrollment-form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.enrollment-form button {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+/* Home Page Styling */
+
+.hero-section {
+  background-color: #ffdb4d; /* Light yellow for a cheerful, welcoming feel */
+  padding: 3rem;
+  text-align: center;
+  color: #333;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.about-section, .features-section {
+  background-color: #ffffff;
+  color: #333;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2, .features-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.about-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+.features-section ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.help-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Help Button Styling */
+.help-button {
+  background-color: #ffdb4d; /* New color for the help button */
+  color: #333; /* Text color */
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.help-button:hover {
+  background-color: #e6c530; /* Slightly darker shade on hover */
+}
+
+
+

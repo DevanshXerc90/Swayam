@@ -1,0 +1,40 @@
+.enrollment-page {
+  font-family: 'Poppins', sans-serif; /* Consistent font */
+  color: #333; /* Neutral text color */
+  padding: 20px;
+  text-align: center;
+}
+
+.enrollment-header {
+  margin-bottom: 20px;
+}
+
+.enrollment-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enroll-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #5c6bc0; /* Muted theme-friendly color */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.enroll-button:hover {
+  background-color: #3949ab; /* Slightly darker for hover */
+}
+
+.enrollment-confirmation h2 {
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.enrollment-confirmation p {
+  color: #666;
+}

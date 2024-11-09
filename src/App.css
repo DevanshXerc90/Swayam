@@ -1,0 +1,32 @@
+/* src/App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #4a4a8c;
+}
+
+button {
+  cursor: pointer;
+  font-size: 16px;
+}
